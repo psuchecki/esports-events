@@ -1,0 +1,144 @@
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+}
+
+.wpcf7-form {
+	width: 90%;
+}
+
+.wpcf7-text, .wpcf7-textarea {
+	width: 100%;
+}
+
+.wpcf7-submit {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wpcf7-not-valid-tip, div.wpcf7-mail-sent-ng, .wpcf7-validation-errors {
+	background-color: rgb(242, 222, 222);
+	border-bottom-color: rgb(238, 211, 215);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(238, 211, 215);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(238, 211, 215);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(238, 211, 215);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: rgb(185, 74, 72);
+	display: block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	padding-bottom: 8px;
+	padding-left: 14px;
+	padding-right: 35px;
+	padding-top: 8px;
+	text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 0px;
+	width: 93.5%;
+}
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+	background-color: rgb(223, 240, 216);
+	border-bottom-color: rgb(214, 233, 198);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(214, 233, 198);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(214, 233, 198);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(214, 233, 198);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: rgb(70, 136, 71);
+	display: block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	padding-bottom: 8px;
+	padding-left: 14px;
+	padding-right: 35px;
+	padding-top: 8px;
+	text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 0px;
+	width: 93.5%;
+}
+
+div.wpcf7-spam-blocked {
+	border: 2px solid #ffa500;
+}
+
+span.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip { 
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid #ff0000;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: #888;
+}
