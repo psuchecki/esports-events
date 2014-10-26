@@ -177,14 +177,14 @@ class Sidebar_Login_Widget extends WP_Widget {
 		    	if ( ! is_multisite() ) {
 
 		    		$links['register'] = array(
-		    			'text' => __( 'Register', 'sidebar-login' ),
+		    			'text' => __( 'Zarejestruj', 'sidebar-login' ),
 		    			'href' => apply_filters( 'sidebar_login_widget_register_url', site_url( 'wp-login.php?action=register', 'login' ) )
 		    		);
 
 				} else {
 
 					$links['register'] = array(
-		    			'text' => __( 'Register', 'sidebar-login' ),
+		    			'text' => __( 'Zarejestruj', 'sidebar-login' ),
 		    			'href' => apply_filters( 'sidebar_login_widget_register_url', site_url('wp-signup.php', 'login') )
 		    		);
 
@@ -213,9 +213,6 @@ class Sidebar_Login_Widget extends WP_Widget {
 			echo '</ul>';
 		}
 		
-		
-		facebookall_render_facebook_button();
-
 		do_action( 'sidebar_login_widget_after_' . $show . '_links' );
     }
 
@@ -259,7 +256,7 @@ class Sidebar_Login_Widget extends WP_Widget {
 		// Logged in user
 		if ( is_user_logged_in() ) {
 
-			$logged_in_title = $this->replace_tags( apply_filters( 'sidebar_login_widget_logged_in_title', $logged_in_title ) );
+			/* $logged_in_title = $this->replace_tags( apply_filters( 'sidebar_login_widget_logged_in_title', $logged_in_title ) );
 
 			if ( $logged_in_title ) {
 				echo $before_title . $logged_in_title . $after_title;
@@ -273,7 +270,7 @@ class Sidebar_Login_Widget extends WP_Widget {
 
 			$this->show_links( 'logged_in', $logged_in_links );
 
-			do_action( 'sidebar_login_widget_logged_in_content_end' );
+			do_action( 'sidebar_login_widget_logged_in_content_end' ); */
 
 		// Logged out user
 		} else {

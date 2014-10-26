@@ -233,14 +233,14 @@ function get_search_form( $echo = true ) {
 		if ( 'html5' == $format ) {
 			$form = '<form role="search" method="get" class="search-form" action="' . esc_url( home_url( '/' ) ) . '">
 				<label>
-					<input type="search" class="search-field" placeholder="' . esc_attr_x( 'Search &hellip;', 'placeholder' ) . '" value="' . get_search_query() . '" name="s" title="' . esc_attr_x( 'Search for:', 'label' ) . '" />
+					<input style="margin-bottom:12px" type="search" class="search-field" placeholder="' . esc_attr_x( 'Search &hellip;', 'placeholder' ) . '" value="' . get_search_query() . '" name="s" title="' . esc_attr_x( 'Search for:', 'label' ) . '" />
 				</label>
 				<input type="submit" class="search-submit" value="'. esc_attr_x( 'Szukaj', 'submit button' ) .'" />
 			</form>';
 		} else {
 			$form = '<form role="search" method="get" id="searchform" class="searchform" action="' . esc_url( home_url( '/' ) ) . '">
 				<div>
-					<input type="text" value="' . get_search_query() . '" name="s" id="s" />
+					<input style="margin-bottom:12px" type="text" value="' . get_search_query() . '" name="s" id="s" />
 					<input type="submit" id="searchsubmit" value="'. esc_attr_x( 'Szukaj', 'submit button' ) .'" />
 				</div>
 			</form>';

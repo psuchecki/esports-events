@@ -1,142 +1,155 @@
-# Copyright (C) 2014 Sidebar Login
-# This file is distributed under the same license as the Sidebar Login package.
-# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Sidebar Login\n"
+"Project-Id-Version: Sidebar Login v2.7.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/sidebar-login\n"
 "POT-Creation-Date: 2014-06-28 09:56:14+00:00\n"
-"PO-Revision-Date: 2014-06-28 10:07+0000\n"
+"PO-Revision-Date: 2014-10-26 14:40:08+0000\n"
 "Last-Translator: Mike Jolley <mike.jolley@me.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/sidebar-login/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pl_PL\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
 
 #: includes/class-sidebar-login-widget.php:20
+#@ sidebar-login
 msgid "Displays a login area in the sidebar."
 msgstr "Wyświetla okno logowania w panelu bocznym."
 
-#. #-#-#-#-#  sidebar-login.pot (Sidebar Login 2.7.0)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
 #: includes/class-sidebar-login-widget.php:23
+#@ sidebar-login
 msgid "Sidebar Login"
 msgstr "Sidebar Login"
 
 #: includes/class-sidebar-login-widget.php:33
+#@ sidebar-login
 msgid "Logged-out title"
 msgstr "Tytuł gdy nie zalogowany"
 
 #: includes/class-sidebar-login-widget.php:34
-#: includes/class-sidebar-login-widget.php:237
+#: includes/class-sidebar-login-widget.php:242
+#: includes/class-sidebar-login-widget.php:292
+#@ sidebar-login
 msgid "Login"
 msgstr "Zaloguj się"
 
 #: includes/class-sidebar-login-widget.php:38
-#: includes/class-sidebar-login-widget.php:68
+#: includes/class-sidebar-login-widget.php:73
+#@ sidebar-login
 msgid "Links"
 msgstr "Odnośniki"
 
 #: includes/class-sidebar-login-widget.php:38
+#@ sidebar-login
 msgid "Text | HREF"
 msgstr "Tekst | HREF"
 
 #: includes/class-sidebar-login-widget.php:43
+#@ sidebar-login
 msgid "Show lost password link"
 msgstr "Pokaż odnośnik utraty hasła"
 
 #: includes/class-sidebar-login-widget.php:48
+#@ sidebar-login
 msgid "Show register link"
 msgstr "Pokaż odnośnik rejestracji użytkownika"
 
 #: includes/class-sidebar-login-widget.php:50
+#, php-format
+#@ sidebar-login
 msgid "<a href=\"%s\">Anyone can register</a> must be enabled."
 msgstr "Opcja <a href=\"%s\">każdy może się zarejestrować</a> musi być aktywna."
 
-#: includes/class-sidebar-login-widget.php:54
+#: includes/class-sidebar-login-widget.php:59
+#@ sidebar-login
 msgid "Login Redirect URL"
 msgstr "URL przekierowania po zalogowaniu"
 
-#: includes/class-sidebar-login-widget.php:63
+#: includes/class-sidebar-login-widget.php:68
+#@ sidebar-login
 msgid "Logged-in title"
 msgstr "Tytuł gdy zalogowany"
 
-#: includes/class-sidebar-login-widget.php:64
-#: includes/class-sidebar-login-widget.php:236
+#: includes/class-sidebar-login-widget.php:69
+#: includes/class-sidebar-login-widget.php:241
+#, php-format
+#@ sidebar-login
 msgid "Welcome %username%"
 msgstr "Witaj %username%"
 
-#: includes/class-sidebar-login-widget.php:68
+#: includes/class-sidebar-login-widget.php:73
+#@ sidebar-login
 msgid "Text | HREF | Capability"
 msgstr "Tekst | HREF | Uprawnienia"
 
-#: includes/class-sidebar-login-widget.php:69
-msgid ""
-"<a href=\"%s\">Capability</a> (optional) refers to the type of user who can "
-"view the link."
+#: includes/class-sidebar-login-widget.php:74
+#, php-format
+#@ sidebar-login
+msgid "<a href=\"%s\">Capability</a> (optional) refers to the type of user who can view the link."
 msgstr "<a href=\"%s\">Uprawnienia</a> (opcjonalnie) - rodzaj użytkoników którzy widzą dany odnośnik."
 
-#: includes/class-sidebar-login-widget.php:74
+#: includes/class-sidebar-login-widget.php:79
+#@ sidebar-login
 msgid "Show logged-in user avatar"
 msgstr "Pokaż avatar po zalogowaniu"
 
-#: includes/class-sidebar-login-widget.php:79
+#: includes/class-sidebar-login-widget.php:84
+#@ sidebar-login
 msgid "Logout Redirect URL"
 msgstr "URL przekierowania po wylogowaniu"
 
-#: includes/class-sidebar-login-widget.php:175
-#: includes/class-sidebar-login-widget.php:182
+#: includes/class-sidebar-login-widget.php:180
+#: includes/class-sidebar-login-widget.php:187
+#@ sidebar-login
 msgid "Register"
 msgstr "Zarejestruj"
 
-#: includes/class-sidebar-login-widget.php:192
+#: includes/class-sidebar-login-widget.php:197
+#@ sidebar-login
 msgid "Lost Password"
 msgstr "Zapomniałeś hasło?"
 
-#: includes/class-sidebar-login-widget.php:286
-msgid "Username"
-msgstr "Użytkownik"
-
-#: includes/class-sidebar-login-widget.php:287
-msgid "Password"
-msgstr "Hasło"
-
-#: includes/class-sidebar-login-widget.php:288
+#: includes/class-sidebar-login-widget.php:294
+#@ sidebar-login
 msgid "Remember Me"
 msgstr "Zapamiętaj mnie"
 
-#: includes/class-sidebar-login-widget.php:289
-msgid "Login &rarr;"
-msgstr "Zaloguj"
-
 #: sidebar-login.php:80
+#@ sidebar-login
 msgid "Please enter your username"
 msgstr "Proszę podać nazwę użytkownika"
 
 #: sidebar-login.php:81
+#@ sidebar-login
 msgid "Please enter your password"
 msgstr "Proszę podać hasło"
 
-#: sidebar-login.php:169
+#: sidebar-login.php:176
+#@ sidebar-login
 msgid "Please enter your username and password to login."
 msgstr "Podaj nazwę użytkownika i hasło aby się zalogować."
 
-#. Plugin URI of the plugin/theme
-msgid "http://wordpress.org/extend/plugins/sidebar-login/"
+#: includes/class-sidebar-login-widget.php:54
+#@ sidebar-login
+msgid "Show \"Remember me\" checkbox"
 msgstr ""
 
-#. Description of the plugin/theme
-msgid ""
-"Allows you to easily add an ajax-enhanced login widget to your WordPress "
-"blog sidebar."
+#: includes/class-sidebar-login-widget.php:293
+#@ sidebar-login
+msgid "Hasło"
 msgstr ""
 
-#. Author of the plugin/theme
-msgid "Mike Jolley"
+#: includes/class-sidebar-login-widget.php:295
+#@ sidebar-login
+msgid "Zaloguj"
 msgstr ""
 
-#. Author URI of the plugin/theme
-msgid "http://mikejolley.com"
-msgstr ""

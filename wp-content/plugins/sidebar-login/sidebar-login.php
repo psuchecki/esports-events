@@ -45,7 +45,7 @@ class Sidebar_Login {
 	 * @return void
 	 */
 	public function i18n() {
-		load_plugin_textdomain( 'sidebar-login', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+		load_plugin_textdomain( 'sidebar-login', false, dirname( plugin_basename( __FILE__ ) ) . 'languages/' );
 	}
 
 	/**
