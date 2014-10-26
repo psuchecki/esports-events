@@ -1,0 +1,1048 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Orizon v4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-10-26 14:23:51+0000\n"
+"Last-Translator: ilinx <poporex@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:8
+#@ orizon
+msgid "BOOM 404!"
+msgstr "Błąd 404"
+
+#: 404.php:9
+#@ orizon
+msgid "Page not found, sorry "
+msgstr "Przepraszamy, nie znaleziono strony "
+
+#: archive.php:1
+#: category.php:1
+#: main-post.php:1
+#: search.php:47
+#@ orizon
+msgid "0"
+msgstr ""
+
+#: archive.php:1
+#: category.php:1
+#: main-post.php:1
+#: search.php:47
+#: single.php:22
+#: tmp-1right-sidebar.php:1
+#: tmp-3full-width.php:30
+#@ orizon
+msgctxt "comments number"
+msgid "1"
+msgstr ""
+
+#: archive.php:1
+#: category.php:1
+#: main-post.php:1
+#: search.php:47
+#: single.php:22
+#: tmp-1right-sidebar.php:1
+#: tmp-3full-width.php:30
+#@ orizon
+msgctxt "comments number"
+msgid "%"
+msgstr ""
+
+#: archive.php:1
+#: category.php:1
+#: main-post.php:1
+#@ orizon
+msgid " by "
+msgstr " przez "
+
+#: archive.php:1
+#@ orizon
+msgid "read more"
+msgstr "czytaj więcej"
+
+#: bbpress/content-single-topic-lead.php:18
+#: bbpress/content-single-topic-lead.php:90
+#@ oblivion
+msgid "Creator"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:22
+#: bbpress/content-single-topic-lead.php:94
+#@ oblivion
+msgid "Topic"
+msgstr ""
+
+#: bbpress/content-statistics.php:17
+#@ oblivion
+msgid "Registered Users"
+msgstr ""
+
+#: bbpress/content-statistics.php:22
+#@ oblivion
+msgid "Forums"
+msgstr ""
+
+#: bbpress/content-statistics.php:27
+#@ oblivion
+msgid "Topics"
+msgstr ""
+
+#: bbpress/content-statistics.php:32
+#@ oblivion
+msgid "Replies"
+msgstr ""
+
+#: bbpress/content-statistics.php:37
+#@ oblivion
+msgid "Topic Tags"
+msgstr ""
+
+#: bbpress/content-statistics.php:44
+#@ oblivion
+msgid "Empty Topic Tags"
+msgstr ""
+
+#: bbpress/content-statistics.php:53
+#@ oblivion
+msgid "Hidden Topics"
+msgstr ""
+
+#: bbpress/content-statistics.php:64
+#@ oblivion
+msgid "Hidden Replies"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:63
+#, php-format
+#@ oblivion
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:71
+#, php-format
+#@ oblivion
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: carousel.php:46
+#@ orizon
+msgid "0 comment"
+msgstr "0 komentarzy"
+
+#: carousel.php:46
+#@ orizon
+msgid "1 comment"
+msgstr "1 komentarz"
+
+#: carousel.php:46
+#: widgets/rating/popular-widget.php:75
+#@ orizon
+#@ oblivion
+msgid "% comments"
+msgstr "% komentarzy"
+
+#: carousel.php:47
+#: category.php:1
+#: main-post.php:1
+#: search.php:68
+#@ orizon
+msgid "Read more"
+msgstr "Więcej"
+
+#: comments.php:1
+#@ orizon
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Ten post jest zabezpieczony hasłem. Wpisz hasło by widzieć komentarze"
+
+#: comments.php:1
+#@ orizon
+msgid "Comment navigation"
+msgstr "Nawigacja po komentarzach"
+
+#: comments.php:1
+#@ orizon
+msgid "&larr; Older Comments"
+msgstr "&larr; Starsze Komentarze"
+
+#: comments.php:1
+#@ orizon
+msgid "Newer Comments &rarr;"
+msgstr "Nowsze Komentarze &rarr;"
+
+#: comments.php:1
+#@ orizon
+msgid "Comments are closed."
+msgstr "Dodawanie komentarzy zostało zablokowane."
+
+#: comments.php:1
+#@ orizon
+msgid "leave a response"
+msgstr "zostaw wiadomość"
+
+#: comments.php:1
+#, php-format
+#@ orizon
+msgid "leave a response to  %s"
+msgstr "zostaw wiadomość dla %s"
+
+#: comments.php:1
+#@ orizon
+msgid "You must be "
+msgstr "Musisz być "
+
+#: comments.php:1
+#@ orizon
+msgid "logged in"
+msgstr "zalogowany"
+
+#: comments.php:1
+#@ orizon
+msgid " to post a comment."
+msgstr "by zostawić komentarz."
+
+#: comments.php:1
+#@ orizon
+msgid "Logged in as "
+msgstr "Zalogowany jako "
+
+#: comments.php:1
+#@ orizon
+msgid "Log out &raquo;"
+msgstr "Wyloguj &raquo;"
+
+#: comments.php:1
+#@ orizon
+msgid "Name "
+msgstr "Nick "
+
+#: comments.php:1
+#@ orizon
+msgid "(required)"
+msgstr "(wymagany)"
+
+#: comments.php:1
+#@ orizon
+msgid "Email  "
+msgstr ""
+
+#: comments.php:1
+#@ orizon
+msgid "Website "
+msgstr "Strona "
+
+#: comments.php:1
+#@ orizon
+msgid "Your Message "
+msgstr "Twoja Wiadomość "
+
+#: functions.php:1
+#@ orizon
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Thanks for your comment. We appreciate your response."
+msgstr "Dziękujemy za komentarz."
+
+#: functions.php:1
+#@ orizon
+msgid "Please wait a while before posting your next comment!"
+msgstr "Poczekaj trochę przed wysłaniem kolejnego komentarza!"
+
+#: functions.php:1
+#@ orizon
+msgid "Processing..."
+msgstr "Przetwarzanie..."
+
+#: functions.php:1
+#@ orizon
+msgid "You might have left one of the fields blank, or be posting too quickly!"
+msgstr "Zostawiłeś jedno z pól puste lub wysłałeś komentarz zbyt szybko!"
+
+#: functions.php:1
+#@ orizon
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Edit"
+msgstr "Edytuj"
+
+#: functions.php:1
+#, php-format
+#@ orizon
+msgid "%1$s at %2$s"
+msgstr "%1$s, %2$s"
+
+#: functions.php:1
+#@ orizon
+msgid "Reply "
+msgstr "Odpowiedz "
+
+#: functions.php:1
+#@ orizon
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz czeka na akceptację moderatora."
+
+#: functions.php:1
+#: pluginactivation.php:1
+#@ orizon
+#@ oblivion
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#@ orizon
+#@ oblivion
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#, php-format
+#@ orizon
+#@ oblivion
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#, php-format
+#@ orizon
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#, php-format
+#@ orizon
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#, php-format
+#@ orizon
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#, php-format
+#@ orizon
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#, php-format
+#@ orizon
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#, php-format
+#@ orizon
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#, php-format
+#@ orizon
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#, php-format
+#@ orizon
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#@ orizon
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#@ orizon
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#@ orizon
+#@ oblivion
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:1
+#: pluginactivation.php:1
+#@ orizon
+#@ oblivion
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:1
+#, php-format
+#@ orizon
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Home sidebar"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Widgets in this area will be shown in the home page."
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Blog sidebar"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Widgets in this area will be shown in the blog page."
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Page sidebar"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Widgets in this area will be shown in the pages."
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Widgets in this area will be shown in the BuddyPress/BBpress sidebar."
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Footer area widgets"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Widgets in this area will be shown in the footer."
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Home"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Blog"
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Category: "
+msgstr "Kategoria: "
+
+#: functions.php:1
+#@ orizon
+msgid "Search: "
+msgstr "Szukaj: "
+
+#: functions.php:1
+#@ orizon
+msgid "Author: "
+msgstr "Autor: "
+
+#: functions.php:1
+#@ orizon
+msgid "Tag: "
+msgstr ""
+
+#: functions.php:1
+#@ orizon
+msgid "Archive"
+msgstr "Archiwum"
+
+#: header.php:1
+#@ orizon
+msgid "No menu assigned!"
+msgstr ""
+
+#: header.php:1
+#@ orizon
+msgid "Menu"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Something went wrong."
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Not set"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Dismiss this notice"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "External Link"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Private Repository"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Pre-Packaged"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "WordPress Repository"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Required"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Recommended"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Not Installed"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Plugin"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Source"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Type"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Status"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Install"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Activate"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Install package not available."
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Plugin install failed."
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Plugin activation failed."
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Show Details"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "Hide Details"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: pluginactivation.php:1
+#@ oblivion
+msgid "All installations have been completed."
+msgstr ""
+
+#: pluginactivation.php:1
+#, php-format
+#@ oblivion
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: post_templates.php:1
+#@ oblivion
+msgid "Sidebar position"
+msgstr ""
+
+#: post_templates.php:1
+#@ oblivion
+msgid "Post Template"
+msgstr ""
+
+#: search.php:81
+#@ orizon
+msgid "Nothing was found"
+msgstr "Nie znaleziono żadnych wyników"
+
+#: single.php:12
+#: tmp-1right-sidebar.php:1
+#: tmp-3full-width.php:18
+#@ orizon
+msgid "by "
+msgstr " przez "
+
+#: single.php:12
+#: tmp-1right-sidebar.php:1
+#: tmp-3full-width.php:18
+#@ orizon
+msgid " in "
+msgstr "w "
+
+#: single.php:56
+#: tmp-1right-sidebar.php:1
+#: tmp-3full-width.php:65
+#@ orizon
+msgid " Comments"
+msgstr " Komentarzy"
+
+#: single.php:57
+#: tmp-1right-sidebar.php:1
+#: tmp-3full-width.php:66
+#@ orizon
+msgid "ON "
+msgstr " "
+
+#: themeOptions/admin/options-framework.php:1
+#@ atticus
+msgid "Save All Changes"
+msgstr ""
+
+#: themeOptions/admin/options-framework.php:1
+#@ atticus
+msgid "Restore Defaults Options"
+msgstr ""
+
+#: themeOptions/admin/options-framework.php:1
+#@ atticus
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: themeOptions/admin/options-framework.php:1
+#@ atticus
+msgid "Default options restored."
+msgstr ""
+
+#: themeOptions/admin/options-framework.php:1
+#@ atticus
+msgid "Options saved."
+msgstr ""
+
+#: themeOptions/admin/options-framework.php:1
+#@ atticus
+msgid "Theme Options"
+msgstr ""
+
+#: themeOptions/admin/options-medialibrary-uploader.php:1
+#@ gp
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: themeOptions/admin/options-medialibrary-uploader.php:1
+#@ gp
+msgid "Upload"
+msgstr ""
+
+#: themeOptions/admin/options-medialibrary-uploader.php:1
+#@ optionsframework
+msgid "View File"
+msgstr ""
+
+#: themeOptions/admin/options-medialibrary-uploader.php:1
+#@ optionsframework
+msgid "Gallery"
+msgstr ""
+
+#: themeOptions/admin/options-medialibrary-uploader.php:1
+#@ optionsframework
+msgid "Previously Uploaded"
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Jquery Scrollbar"
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Enable the option of a smooth jquery scrollbar."
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Backgrounds"
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Top background"
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Background for the header of the site."
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Fixed background"
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Set background to fixed position."
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Footer background"
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Background for the footer of the site."
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Footer background repeat"
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "You could choose to repeat the background image if you want to use a pattern."
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Background colour"
+msgstr ""
+
+#: themeOptions/options.php:1
+#@ oblivion
+msgid "Colour for the background."
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "Displays your latest twitter.com updates"
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "Twitter user: @"
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "Show"
+msgstr "Pokaż"
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "twitter updates"
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "Widget title:"
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "Include replies"
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "If your tweets doesn&#8217;t show up with this Application settings please register another twitter APP on https://apps.twitter.com/app"
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "Api key:"
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "Api key secret: "
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "Token: "
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "Token secret: "
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "To style the output of the widget, modify"
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "this CSS stylesheet"
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "You should also back this file up before updating the plugin."
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid "follow "
+msgstr ""
+
+#: widgets/latest_twitter/latest_twitter_widget.php:1
+#@ orizon
+msgid " on twitter"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:75
+#@ oblivion
+msgid "No comments"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:75
+#@ oblivion
+msgid "One comment"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:136
+#@ oblivion
+msgid "NO Popular Post"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:167
+#@ oblivion
+msgid "Title:"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:171
+#@ oblivion
+msgid "Category:"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:173
+#@ oblivion
+msgid "All"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:179
+#@ oblivion
+msgid "By:"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:181
+#@ oblivion
+msgid "Comments"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:182
+#@ oblivion
+msgid "Ratings"
+msgstr ""
+
+#: widgets/rating/popular-widget.php:186
+#@ oblivion
+msgid "No. of Posts:"
+msgstr ""
+
