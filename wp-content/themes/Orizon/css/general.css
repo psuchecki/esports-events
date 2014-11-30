@@ -1692,6 +1692,11 @@ a img.aligncenter {
     width: auto;
 }
 
+.logo-svg {
+	width: 550px;
+	height: 150px;
+}
+
 .wp-caption p.wp-caption-text {
     font-size: 11px;
     line-height: 17px;
