@@ -77,7 +77,7 @@ class WPCF7_Mail {
 		}
 
 		if ( $send ) {
-			return @wp_mail( $recipient, $subject, $body, $headers, $attachments );
+			return wp_mail( $recipient, $subject, $body, $headers, $attachments );
 		}
 
 		$components = compact( 'subject', 'sender', 'body',

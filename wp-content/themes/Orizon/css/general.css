@@ -703,7 +703,6 @@ a.more_news{
 }
 #full_page_wrapper  .info-wrapper-inner{
 	width:570px;
-	margin:0 auto;
 }
 #full_page_wrapper  #response{
 	width:99.7%;
@@ -767,6 +766,7 @@ ul#general_news li .image img{
 	width:auto !important;
 	min-width:100%;
 	min-height:100%;
+	max-width: 100%;
 }
 ul#general_news li .info{
 	width:345px;
@@ -1695,6 +1695,7 @@ a img.aligncenter {
 .logo-svg {
 	width: 550px;
 	height: 120px;
+	margin-top: 20px;
 }
 
 .wp-caption p.wp-caption-text {
@@ -1726,4 +1727,26 @@ div.rating:after { position: absolute; left: 0; }
 {
 	font-size: 12px;
 	margin: 0 0 12px;
+}
+
+/* fix for IE */
+.right_navi input[type='submit'] {
+	background-image: -webkit-linear-gradient(top, #40c5ff, #1c98ff);
+	background-image: -moz-linear-gradient(top, #40c5ff, #1c98ff);
+	background-image: -ms-linear-gradient(top, #40c5ff, #1c98ff);
+	background-image: -o-linear-gradient(top, #40c5ff, #1c98ff);
+	background-image: linear-gradient(top, #40c5ff, #1c98ff);
+	border: 1px solid #1f96c8;
+}
+
+.right_navi input[type='submit']:hover {
+	background-image: -webkit-linear-gradient(top, #1c98ff, #40c5ff);
+	background-image: -moz-linear-gradient(top, #1c98ff, #40c5ff);
+	background-image: -ms-linear-gradient(top, #1c98ff, #40c5ff);
+	background-image: -o-linear-gradient(top, #1c98ff, #40c5ff);
+	background-image: linear-gradient(top, #1c98ff, #40c5ff);
+	cursor: pointer;
+	color:#fff;
+	text-decoration:none;
+	border-color:#1f96c8;
 }
